@@ -27,3 +27,4 @@ for fff in `ls *.jpg`; do convert $fff -resize 1024x smaller/$fff; done
 ### Links
 - [CSS guru Jen Simmons](https://labs.jensimmons.com/)
 - [Gatsby images in portfolio](https://medium.freecodecamp.org/how-i-made-my-portfolio-website-blazing-fast-with-gatsby-82ccddc2f671)
+- [css clip path utility](https://bennettfeely.com/clippy/)

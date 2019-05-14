@@ -1,10 +1,35 @@
+/*  Colors 
+------------------------------------------------------------- */
+:root {
+  --cream: #f6efe5;
+  --faded-cream: #c0ae95;
+  --orange: #f2502a;
+  --light-grey: #bebdc2;
+  --dark-grey: #323232;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Avenir, Roboto, Helvetica, sans-serif;
   font-size: 80%;
-  background: rgb(0, 0, 0);
+  background: var(--cream);
   line-height: 1.2;
 }
 
+.about {
+  img {
+    border-radius: 50%;
+  }
+}
+.header {
+  h3 {
+    color: var(--dark-grey);
+  }
+  a {
+    color: var(--orange);
+  }
+}
+
+// Grid layout
 @supports (display: grid) {
   .projects {
     /* autoprefixer: off */
@@ -13,7 +38,7 @@ body {
     grid-gap: 1rem;
 
     img {
-        width: 100%;
-      }
+      width: 100%;
+    }
   }
 }
