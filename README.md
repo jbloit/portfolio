@@ -1,11 +1,6 @@
 # portfolio
-portfolio static website
+portfolio static website. For working on layout only.
 
-
-Roadmap: 
-1-layout with html and scss 
-2-integrate into gatsby, to get access to more plugins (multilingual for isntance) and data layer
-3-refine UI from within gatsby
 
 ## layout with html and scss 
 scss allows to work with structured css.
