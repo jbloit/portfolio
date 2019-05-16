@@ -1,0 +1,33 @@
+/*  Colors 
+------------------------------------------------------------- */
+:root {
+  --cream: #f6efe5;
+  --faded-cream: #c0ae95;
+  --orange: #f2502a;
+  --light-grey: #bebdc2;
+  --dark-grey: #323232; }
+
+body {
+  font-family: Avenir, Roboto, Helvetica, sans-serif;
+  font-size: 80%;
+  background: var(--cream);
+  line-height: 1.2; }
+
+.about img {
+  border-radius: 50%; }
+
+.header h3 {
+  color: var(--dark-grey); }
+.header a {
+  color: var(--orange); }
+
+@supports (display: grid) {
+  .projects {
+    /* autoprefixer: off */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 1rem; }
+    .projects img {
+      width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
